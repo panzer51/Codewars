@@ -1,0 +1,37 @@
+/*
+Very simple, given an integer or a floating-point number, find its opposite.
+
+Examples:
+
+1: -1
+14: -14
+-34: 34
+*/
+
+//Solution 
+
+using System;
+
+public class Kata
+    {
+        public static int Opposite(int number)
+        {
+            // Happy Coding
+            return -number;
+        }
+    }
+
+// Another Solution 
+
+/*
+using System;
+
+public class Kata
+    {
+        public static int Opposite(int number)
+        {
+            // Happy Coding
+            return number * -1;
+        }
+    }
+*/
